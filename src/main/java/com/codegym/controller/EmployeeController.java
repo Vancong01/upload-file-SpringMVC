@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class EmployeeController {
 
-    @GetMapping("/add-employee")
+    @GetMapping("/'")
     public ModelAndView inputEmployee() {
         ModelAndView modelAndView = new ModelAndView("/employee/EmployeeForm");
         modelAndView.addObject("employee", new Employee());

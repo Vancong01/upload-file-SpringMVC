@@ -70,6 +70,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
         registry.addResourceHandler("/i/**") //
                 .addResourceLocations("file:" + fileUpload);
 
+
         // Css resource.
         registry.addResourceHandler("/styles/**") //
                 .addResourceLocations("/WEB-INF/resources/css/");
